@@ -8,8 +8,10 @@ Let's say-
 Branch 1 - Images = B/W images | Control Signal = 0
 Branch 2 - Images = W/B images | Control Signal = 1
 
-This is how my Multiplexed CNN model on MNIST looks like - 
-![model](https://github.com/2vin/multiplexed_cnn/blob/master/model.png)
+This is how my Multiplexed CNN model on MNIST looks like -      
+
+![model](https://github.com/2vin/multiplexed_cnn/blob/master/model.png)     
+
 
 We can use multiplexer to select final output of the model using the predefined control signal. This helps in training multiple branches of the network simultaneously by switching each branch using control signal during training time.
 
